@@ -1,0 +1,35 @@
+let Mock=require("mockjs")
+Mock.mock("/api/Movie",[
+    {
+        img:"//liangcang-material.alicdn.com/prod/upload/654acbff75f74526a776b149a4627457.gif",
+        title:"与君初相识",
+        text:"长意吃醋宣示主权"
+    },
+    {
+        img:"//liangcang-material.alicdn.com/prod/upload/462f138ed7954915b4ccb0fc62d0dc8b.jpg",
+        title:"相逢时节",
+        text:"雷佳音源泉在合作"
+    },
+    {
+        img:"//liangcang-material.alicdn.com/prod/upload/d019a8c88293404aa2e1eed33eec96e8.jpg",
+        title:"婚姻的两种猜想",
+        text:"白富美狂撩小奶狗"
+    },
+    {
+        img:"//liangcang-material.alicdn.com/prod/upload/90674add3c0b4a5da9971962ee56bb58.webp.png",
+        title:"正在分手中",
+        text:"宋慧桥浪漫姐弟恋"
+    }
+    ,
+    {
+        img:"//liangcang-material.alicdn.com/prod/upload/f8c565da3dd4413591d2b1fa908d6662.jpg",
+        title:"厥草少女",
+        text:"霸总拯救落魄少女"
+    }
+    ,
+    {
+        img:"//liangcang-material.alicdn.com/prod/upload/9648e56c86034db48491858604f8e8ca.jpg",
+        title:"姻缘大人请留步",
+        text:"仙君独宠小红娘"
+    }
+])
